@@ -5,7 +5,7 @@ const result = document.querySelector(".result");
 const error = document.querySelector(".error");
 
 const main = () => {
-  let country_name = input_box.value;
+  let country_name = input_box.value.trim();
   let url = `https://restcountries.com/v3.1/name/${country_name}?fullText=true`;
 
   fetch(url)
