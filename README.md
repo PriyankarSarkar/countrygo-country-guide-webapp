@@ -1,3 +1,3 @@
-# Country Guide Webapp #
+# CountryGo #
 
-This project displays the details of a particular country on search. The data is fetched by the 'Rest Countries' API.
+CountryGo is a country guide webapp which displays the details of a particular country on search. The data is fetched by the 'Rest Countries' API.

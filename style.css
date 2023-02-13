@@ -66,9 +66,9 @@ body{
     font-size: 14px;
     font-weight: 600;
     color: white;
+    transition: 0.3s ease-in-out;
 }
 .search_button:hover{
-    transition: 0.3s;
     cursor: pointer;
     box-shadow: 1px 1px 10px rgb(91, 91, 244);
 }
@@ -145,6 +145,24 @@ body{
     list-style: none;
 }
 
+.credit{
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+}
+.link{
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 5px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.link:hover{
+    color: gold;
+}
+
 @media (max-width: 500px) {
     .main{width: 94vw;}
 }
@@ -187,20 +205,3 @@ body{
         padding-bottom: 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
