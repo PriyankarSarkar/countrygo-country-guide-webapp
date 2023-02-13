@@ -11,7 +11,8 @@ const main = () => {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
-      result.innerHTML = `
+      
+      result.children[0].innerHTML = `
                   
                   <img src="${
                     data[0].flags.svg
