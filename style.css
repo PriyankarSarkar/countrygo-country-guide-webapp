@@ -17,7 +17,8 @@ body{
     justify-content: center;
     align-items: center;
     margin: 15px 20px;
-    width: 30rem;
+    width: 92%;
+    max-width: 500px;
     gap: 20px;
 }
 .outer_search{
@@ -188,10 +189,6 @@ body{
     100%{background-color: rgb(255, 191, 72)}
 }
 
-@media (max-width: 500px) {
-    .main{width: 94vw;}
-}
-
 @media (max-width: 450px) {
     .search_div input{
         margin-left: 10px;
@@ -204,7 +201,7 @@ body{
     }
 }
 
-@media (max-width: 350px){
+@media (max-width: 400px){
     .search_div input{
         height: 2em;
     }
@@ -216,7 +213,7 @@ body{
     }
 }
 
-@media (max-width: 230px){
+@media (max-width: 260px){
     .search_icon{
         margin-right: 5px;
     }
