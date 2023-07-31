@@ -1,3 +1,5 @@
 # CountryGo #
 
-CountryGo is a country guide webapp which displays the details of a particular country on search. The data is fetched by the 'Rest Countries' API.
+CountryGo is a country guide web app that displays the details of a particular country on search. <br>
+Tech stack: HTML, CSS, JAVASCRIPT <br>
+Public APIs: Rest Countries
